@@ -58,6 +58,7 @@ img {
     width: 60px;
     height: auto;
     padding: 4px 8px;
+    border: 1px solid white;
     border-radius: 4px;
 }
 
@@ -69,6 +70,7 @@ a {
 #body-cards-title {
     font-weight: bolder;
     font-size: 36px;
+    margin: 10px;
 }
 
 .body-cards {
@@ -87,7 +89,7 @@ a {
     height: 100px;
     width: 100px;
     background-color: white;
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     box-sizing: border-box;
     border-style: solid;
     border-width: 2px;
@@ -96,10 +98,52 @@ a {
 }
 
 .card-descriptions {
-    margin: 20px;
+    margin: 0px 20px;
     width: 100px;
     height: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.body-quote {
+    background-color: #e5e7eb;
+    /* how do I make the height of this section the same height as the cards section? */
+    height: 250px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+ #quote-author {
+    font-weight: 700;
+ }
+
+.body-bottom {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 40px 80px;
+    border-radius: 10px;
+    color: white;
+}
+
+#call-to-action {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer {
     text-align: center;
+    padding: 8px;
 }
