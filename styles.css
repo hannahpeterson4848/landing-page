@@ -1,0 +1,105 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+.header, .footer, .top-body {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: 100;
+}
+
+#header-logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding: 0px 8px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.top-body {
+    display: flex;
+    padding: 20px;
+}
+
+#website-title {
+    font-size: 48px;
+    font-weight:700;
+}
+
+#website-description {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 8px 0px;
+}
+
+.button {
+    background-color: #3882f6;
+    width: 60px;
+    height: auto;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#body-cards-title {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.body-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards, .card-description {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.card-descriptions {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
