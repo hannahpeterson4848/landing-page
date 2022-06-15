@@ -86,7 +86,7 @@ a {
 }
 
 .card {
-    height: 100px;
+    height: 132px;
     width: 100px;
     background-color: white;
     margin: 20px 20px 0px 20px;
@@ -96,7 +96,10 @@ a {
     border-color: #3882f6;
     border-radius: 10px;
 }
-
+ img {
+     width: 96px;
+     height: auto;
+ }
 .card-descriptions {
     margin: 0px 20px;
     width: 100px;
